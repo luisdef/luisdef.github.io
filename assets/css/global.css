@@ -95,7 +95,9 @@ section>div.right div.linkes a {
     font-size: 2vw;
     color: var(--brown-dark);
     text-decoration: underline;
-
+    margin-top: 2vh;
+    padding: 1vw;
+    border: 1px solid var(--brown-light);
 }
 @media screen and (max-width: 850px) {
     section>div.left>img {
@@ -128,10 +130,8 @@ section>div.right div.linkes a {
         font-size: 1.2rem;
     }
     section>div.right>div.linkes>a {
-        color: white;
         padding: .5rem;
         margin: 1rem 0;
-        background-color: var(--brown);
         text-decoration: none;
     }
 }
