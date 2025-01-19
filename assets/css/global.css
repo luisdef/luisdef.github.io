@@ -11,10 +11,10 @@
     src: url(cardo-bold.woff2);
 }
 :root {
-    --brown-dark: #543310;
-    --brown: #74512D;
-    --brown-light: #AF8F6F;
-    --background-light: #F8F4E1;
+    --brown-dark: #14110c;
+    --brown: #2e241a;
+    --brown-light: #b1aba5;
+    --background-light: #fffbf2;
 }
 * {
     padding: 0;
@@ -42,6 +42,11 @@ header {
 }
 header>h1 {
     font-size: 2vw;
+    padding-bottom: 3px;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    border-bottom: 3px solid var(--brown-dark);
+    color: var(--brown-dark);
 }
 header>div>a {
     font-size: 1vw;
